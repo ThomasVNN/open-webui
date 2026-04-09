@@ -1,5 +1,5 @@
-from test.util.abstract_integration_test import AbstractPostgresTest
-from test.util.mock_user import mock_webui_user
+from autocheck.util.abstract_integration_test import AbstractPostgresTest
+from autocheck.util.mock_user import mock_webui_user
 
 
 class TestAuths(AbstractPostgresTest):
